@@ -1,0 +1,43 @@
+@keyframes MudaTudo{
+        0% {
+            background-color: black;
+        }
+        20% {
+            background-color: blue;
+            width: 800px;
+            height: 500px;
+        }
+        40%{
+            margin-left: 100px;
+            background-color: blueviolet;
+        }
+        80%{
+            margin-left: 0px;
+            background-color: chocolate;
+        }
+        100%{
+            background-color: deeppink;
+            background-image: url(gessiel.jpeg);
+        }
+}
+@font-face{
+    font-family: Starborn;
+    src: url(fontes/fonte6/OldeEnglish.ttf);
+}
+
+*{
+margin: 0%;
+padding: 0%;
+font-family:Starborn;
+}
+#animation{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation: MudaTudo 5s infinite;
+}
+#animation:hover{
+    animation: mudaTudo 5s infinite;
+    cursor: pointer;
+
+}
